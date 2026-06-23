@@ -4,7 +4,10 @@ on:
     branches:
       - main
       - dev
+<<<<<<< HEAD
       - master
+=======
+>>>>>>> 9595322 (Initial commit)
 env:
   CACHE_KEY: node-deps
   MONGODB_DB_NAME: gha-demo
@@ -14,7 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
+<<<<<<< HEAD
       MONGODB_CLUSTER_ADDRESS: cluster0.9ipulaq.mongodb.net
+=======
+      MONGODB_CLUSTER_ADDRESS: cluster0.ntrwp.mongodb.net
+>>>>>>> 9595322 (Initial commit)
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
