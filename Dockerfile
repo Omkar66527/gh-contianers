@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-FROM node:20
-=======
 FROM node:24
->>>>>>> 1648ed1 (Fixed errors)
 
 ENV MONGODB_CONNECTION_PROTOCOL mongodb+srv
 ENV MONGODB_DB_NAME gha-demo1
